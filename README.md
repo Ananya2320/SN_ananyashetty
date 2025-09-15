@@ -20,6 +20,7 @@ Access & security model (how multi-level access works):
 4.	Attribute verification: user presents a DID VC (or a ZK proof derived from VC) proving required attributes; PHC verifies ZK proof . If verified, KEYSHARE protocol runs (could be a CP-ABE decryption, or threshold decryption involving enclave + MPC shares). 
 
 AI-Powered Unique Solution:
+
 AI for Threat Detection
 •	AI scans logs in real-time and looks for abnormal patterns:
 o	Too many failed login attempts.
@@ -31,7 +32,7 @@ ________________________________________
 •	 “Show me only vacation photos from last year.”
 •	Smart search: AI indexes photos, documents, and videos so users can search by natural language:
 ________________________________________
-5. AI for Recovery & Help
+2. AI for Recovery & Help
 •	If a user loses their device, AI guides them step-by-step:
 o	Detects loss patterns (no logins from device for weeks).
 o	Suggests recovery through trusted peers.
@@ -39,4 +40,6 @@ o	Suggests recovery through trusted peers.
 
 
 The PHC diagram shows a secure, layered system where users connect through a protected network to a home cloud that stores, encrypts, and manages files with AI and advanced cryptography, while backups ensure safety and recovery.
+<img width="489" height="523" alt="image" src="https://github.com/user-attachments/assets/b18bcaaa-eaac-409a-92ed-ea51f14b235e" />
+
  
